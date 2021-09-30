@@ -9,5 +9,7 @@ kubectl apply -f myfirstapp-service.yaml -n labgke
 kubectl apply -n labgke -f myfirstapp-deployment.yaml
 
 kubectl get deployment -n labgke
+
 kubectl describe deployment myfirstapp -n labgke
+
 kubectl get pods -n labgke
